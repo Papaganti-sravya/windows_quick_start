@@ -1,1 +1,0 @@
-# windows_quick_start
