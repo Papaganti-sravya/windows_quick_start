@@ -1,0 +1,170 @@
+7-Zip 19.00 (x64)
+Anaconda3 py310_2023.03-0 (Python 3.10.9 64-bit)
+Apache Tomcat 9.0 Tomcat9 (remove only)
+DWAgent
+Git
+Microsoft Office Home and Student 2019 - en-us
+GDR 2269 for SQL Server 2014 (KB3045324) (64-bit)
+Microsoft Help Viewer 1.1
+Microsoft SQL Server 2014 (64-bit)
+Microsoft SQL Server 2014 (64-bit)
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Mozilla Firefox (x64 en-US)
+Notepad++ (64-bit x64)
+R for Windows 4.0.2
+Microsoft Windows SDK for Windows 7 (7.1)
+TeamViewer
+Microsoft SQL Server 2014 Transact-SQL ScriptDom 
+SQL Server 2014 Reporting Services
+IIS Express Application Compatibility Database for x64
+PuTTY release 0.74 (64-bit)
+SQL Server 2014 Database Engine Services
+SQL Server 2014 Documentation Components
+Microsoft Update Health Tools
+SQL Server 2014 Client Tools
+Microsoft Web Deploy 4.0
+Microsoft Windows SDK for Windows 7 (7.1)
+Intel(R) Chipset Device Software
+Microsoft VSS Writer for SQL Server 2014
+Microsoft SQL Server 2014 Setup (English)
+MySQL Shell 8.0.27
+Microsoft SQL Server 2012 Native Client 
+SQL Server 2014 Database Engine Services
+Microsoft SQL Server 2014 Transact-SQL Compiler Service 
+SQL Server 2014 Documentation Components
+Microsoft SQL Server 2008 Setup Support Files 
+Sql Server Customer Experience Improvement Program
+Java SE Development Kit 8 Update 202 (64-bit)
+Java SE Development Kit 8 Update 311 (64-bit)
+Visual Studio 2010 Prerequisites - English
+Workflow Manager Client 1.0
+Microsoft Windows SDK for Windows 7 Utilities for Win32 Development (30514)
+Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.29.30133
+SQL Server 2014 Reporting Services
+SQL Server 2014 Management Studio
+SQL Server 2014 Documentation Components
+SQL Server 2014 Management Studio
+Microsoft Windows SDK for Windows 7 Headers and Libraries (30514)
+Application Verifier (x64)
+Microsoft System CLR Types for SQL Server 2014
+Office 16 Click-to-Run Licensing Component
+Office 16 Click-to-Run Extensibility Component
+Office 16 Click-to-Run Localization Component
+Microsoft SQL Server 2016 LocalDB 
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Microsoft Windows SDK for Windows 7 Samples (30514)
+AWS Command Line Interface v2
+Microsoft Windows SDK for Windows 7 Common Utilities (30514)
+Microsoft ODBC Driver 11 for SQL Server
+IIS 10.0 Express
+MySQL Workbench 8.0 CE
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Adobe Acrobat (64-bit)
+SQL Server 2014 Database Engine Shared
+IIS Express Application Compatibility Database for x86
+NVIDIA Graphics Driver 452.56
+NVIDIA GeForce Experience 3.20.0.118
+NVIDIA PhysX System Software 9.20.0221
+NVIDIA SHIELD Streaming
+NVIDIA Install Application
+NVIDIA ABHub
+NVIDIA Backend
+NVIDIA Container
+NVIDIA TelemetryApi helper for NvContainer
+NVIDIA LocalSystem Container
+NVIDIA Message Bus for NvContainer
+NVIDIA NetworkService Container
+NVAPI Monitor plugin for NvContainer
+NVIDIA Session Container
+NVIDIA User Container
+NVIDIA NodeJS
+NVIDIA Watchdog Plugin for NvContainer
+NVIDIA Telemetry Client
+NVIDIA Virtual Host Controller
+Nvidia Share
+NVIDIA SHIELD Wireless Controller Driver
+NVIDIA Update Core
+SQL Server 2014 Full text search
+SQL Server 2014 Client Tools
+Microsoft Windows SDK for Windows 7 Redistributable Components for Windows Debugging Tools (30514)
+SQL Server 2014 Common Files
+Oracle VM VirtualBox 6.1.12
+WinZip 26.0
+SQL Server 2014 Database Engine Shared
+MySQL Server 8.0
+Microsoft SQL Server 2014 Express LocalDB 
+Node.js
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.30319
+Update for x64-based Windows Systems (KB5001716)
+Debugging Tools for Windows (x64)
+Microsoft Help Viewer 1.1
+Microsoft SQL Server 2014 RsFx Driver
+Microsoft Visual C++ 2019 X64 Additional Runtime - 14.29.30133
+Microsoft Windows Performance Toolkit
+SQL Server 2014 Common Files
+Windows Subsystem for Linux Update
+Adobe PageMaker 7.0
+Apache Directory Studio - (remove only)
+Cisco AnyConnect Secure Mobility Client 
+Google Chrome
+IntelliJ IDEA 2024.1
+Microsoft Edge
+Microsoft Edge WebView2 Runtime
+Mozilla Maintenance Service
+OBS Studio
+PyCharm 2021.2.2
+RealPlayer
+RStudio
+SAntivirus Realtime Protection Lite
+KMPlayer (remove only)
+Lenovo Vantage Service
+WinSCP 5.19.5
+Respondus LockDown Browser OEM
+Realtek USB Ethernet Controller All-In-One Windows Driver
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501
+NCS WinVisible
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.30319
+ExpressVPN
+MySQL Installer - Community
+Microsoft SQL Server 2014 Policies 
+RealUpgrade 1.1
+Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.29.30133
+Python 3.8.5 Add to Path (32-bit)
+Python 3.8.5 Core Interpreter (32-bit)
+SQL Server Browser for SQL Server 2014
+Microsoft Report Viewer 2014 Runtime
+Java SE Development Kit 8 Update 202
+Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.29.30133
+Microsoft Visual C++ 2019 X86 Additional Runtime - 14.29.30133
+Intel(R) Chipset Device Software
+Java Auto Updater
+Python 3.8.5 Standard Library (32-bit)
+Python 3.8.5 Tcl/Tk Support (32-bit)
+Python 3.8.5 Development Libraries (32-bit)
+Java 8 Update 391
+Python 3.8.5 pip Bootstrap (32-bit)
+RealNetworks - Microsoft Visual C++ 2008 Runtime
+Cisco AnyConnect Start Before Login Module
+Microsoft SQL Server 2008 R2 Management Objects
+Python 3.8.5 Utility Scripts (32-bit)
+Microsoft Application Error Reporting
+Kryterion Sentinel
+Google Update Helper
+Adobe Refresh Manager
+Cisco AnyConnect Secure Mobility Client
+Microsoft SQL Server System CLR Types
+Python Launcher
+Microsoft .NET Framework 4 Multi-Targeting Pack
+Microsoft Visual Studio 2010 Shell (Isolated) - ENU
+Python 3.8.5 Test Suite (32-bit)
+UltraViewer version 6.6.24
+Windows SDK AddOn
+ExpressVPN
+Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.29.30133
+Intel(R) Processor Graphics
+Python 3.8.5 Executables (32-bit)
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501
+Python 3.8.5 Documentation (32-bit)
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005

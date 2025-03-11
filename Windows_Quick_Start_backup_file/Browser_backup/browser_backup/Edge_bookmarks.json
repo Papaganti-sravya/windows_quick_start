@@ -1,0 +1,269 @@
+{
+   "checksum": "55e04b6c898bda7b588ace3bfe9930d6",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13166181729890699",
+            "date_last_used": "0",
+            "guid": "d218d208-ea09-424c-b8f7-669cc0a19799",
+            "id": "15",
+            "name": "Udacity",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://classroom.udacity.com/nanodegrees/nd001-intr2/parts/6d9560d0-8027-4cd9-aa05-6484d8ee7ccb"
+         }, {
+            "date_added": "13175518444510379",
+            "date_last_used": "0",
+            "guid": "ebd465c3-01a9-4509-9ed8-d0c592cf4367",
+            "id": "16",
+            "name": "Blog",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://www.blogger.com/blogger.g?rinli=1&pli=1&blogID=7592648978360915769#allposts"
+         }, {
+            "date_added": "13227770844825693",
+            "date_last_used": "0",
+            "guid": "492b0dcc-57a7-476d-b12f-bfbb8b71c651",
+            "id": "17",
+            "name": "Michigan",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://westernmichigan.force.com/portal/TargetX_Base__Portal#/"
+         }, {
+            "date_added": "13227990369007204",
+            "date_last_used": "0",
+            "guid": "59d998b8-5fdb-431e-b3d0-565703b8919f",
+            "id": "18",
+            "name": "Reach js",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://snack.expo.io/"
+         }, {
+            "date_added": "13228412820132018",
+            "date_last_used": "0",
+            "guid": "8f9c4079-2aea-484e-b7e5-baa1e14a0edd",
+            "id": "19",
+            "name": "file transfer",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://send-anywhere.com/"
+         }, {
+            "date_added": "13230983300864104",
+            "date_last_used": "0",
+            "guid": "c0dcc8c8-dde3-4abd-8dcb-9ffe1b68ac09",
+            "id": "20",
+            "name": "Microsoft Teams",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://teams.microsoft.com/_#/calling/19:4dadd271-a8a0-4c4f-ac7e-0fdd8a20111d_f02bae68-921d-4546-9d19-da8b7f4f66e0@unq.gbl.spaces/"
+         }, {
+            "date_added": "13236421745257415",
+            "date_last_used": "13324778571285515",
+            "guid": "4c01811d-d0cc-4b5d-9f2f-32473100e840",
+            "id": "21",
+            "name": "wmu portal",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://gowmu.wmich.edu/"
+         }, {
+            "date_added": "13227990369007204",
+            "date_last_used": "0",
+            "guid": "9ee147f3-21bf-4890-8085-8abf031531ac",
+            "id": "23",
+            "name": "React js",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://snack.expo.io/"
+         }, {
+            "date_added": "13241377458500890",
+            "date_last_used": "0",
+            "guid": "3f982484-3fad-4b18-ae7c-be2ebff95da6",
+            "id": "24",
+            "name": "NAU login ",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://cas.nau.edu/cas/login?service=https%3A%2F%2Fwww.peoplesoft.nau.edu%2Fpsp%2Fps92pr_1%2FEMPLOYEE%2FSA%2Fc%2FSA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL"
+         }, {
+            "date_added": "13241718963499784",
+            "date_last_used": "0",
+            "guid": "dde1c102-ce43-4788-87d9-91150fbf3102",
+            "id": "25",
+            "name": "Slack",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://app.slack.com/client/T0181L8J6MV/C0189LLK77G"
+         }, {
+            "date_added": "13242231098991135",
+            "date_last_used": "0",
+            "guid": "d1dc4b43-ca6f-4fa5-905f-87be403958a7",
+            "id": "26",
+            "name": "BB Leariing",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://bblearn.nau.edu/"
+         }, {
+            "date_added": "13246717114744288",
+            "date_last_used": "0",
+            "guid": "0031b5eb-e98d-4f55-8097-8c9365208528",
+            "id": "27",
+            "name": "grasshopper ",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://ghcindia.anitab.org/ghci-20-student-scholarships/"
+         }, {
+            "date_added": "13255746704876721",
+            "date_last_used": "0",
+            "guid": "5f03fed0-50ba-4b17-9ce9-d6a201dde419",
+            "id": "28",
+            "name": "Artificial intelligence",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://github.com/tdhock/cs470-570-spring-2021/"
+         }, {
+            "date_added": "13256615939861158",
+            "date_last_used": "0",
+            "guid": "74db0206-60fb-465d-bd0b-ec0abfa914be",
+            "id": "29",
+            "name": "AI excersie ",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://aimacode.github.io/aima-exercises/agents-exercises/"
+         }, {
+            "date_added": "13257193557972231",
+            "date_last_used": "0",
+            "guid": "cd4aa2cf-4b17-450e-bed3-49a6b950bdca",
+            "id": "30",
+            "name": "Monsoon",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://ondemand.hpc.nau.edu/pun/sys/dashboard"
+         }, {
+            "date_added": "13263492356027435",
+            "date_last_used": "0",
+            "guid": "7a4b5d09-6c5c-4bf0-aef6-555c4e4e13ba",
+            "id": "31",
+            "name": "afl reference",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://github.com/mirrorer/afl/blob/master/docs/sister_projects.txt"
+         }, {
+            "date_added": "13306460511285541",
+            "date_last_used": "0",
+            "guid": "15f97db8-e6b2-4266-acdd-50dc8611a479",
+            "id": "32",
+            "name": "Google Online Assessment Questio",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions"
+         }, {
+            "date_added": "13308950372676697",
+            "date_last_used": "0",
+            "guid": "146e0135-5ecb-4d75-8cb6-190a6dc359ce",
+            "id": "33",
+            "name": "Data Engineer, Analytics | Meta Careers",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://www.metacareers.com/v2/jobs/626340179109607/"
+         }, {
+            "date_added": "13310112893966402",
+            "date_last_used": "0",
+            "guid": "26205b3e-59ce-4091-9e8b-7db83183cb2f",
+            "id": "34",
+            "name": "Create a Healthcare Data Hub with AWS and Mirth Connect | AWS Big Data Blog",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://aws.amazon.com/blogs/big-data/create-a-healthcare-data-hub-with-aws-and-mirth-connect/"
+         }, {
+            "date_added": "13313614040681814",
+            "date_last_used": "0",
+            "guid": "905e81bf-2f31-4adf-b0b4-587e9eef3384",
+            "id": "35",
+            "name": "PrepInsta Home",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://prepinsta.com/home/"
+         }, {
+            "date_added": "13316728137806008",
+            "date_last_used": "0",
+            "guid": "579e6934-1a4c-4565-bafe-e64f6fa066d8",
+            "id": "36",
+            "name": "Google Summer of Code projects",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://summerofcode.withgoogle.com/archive/2022/projects"
+         }, {
+            "date_added": "13316831510858848",
+            "date_last_used": "0",
+            "guid": "0df513ac-b086-4009-80d3-aaa3947b7dc3",
+            "id": "37",
+            "name": "The 15 Most Common Google Coding Interview Questions | CodingInterview.com",
+            "show_icon": false,
+            "source": "import_continuous_from_chrome",
+            "type": "url",
+            "url": "https://www.codinginterview.com/google-interview-questions"
+         } ],
+         "date_added": "13240862279970544",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13240862279970559",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13088957874536906",
+            "date_last_used": "0",
+            "guid": "ad31ee3f-1843-4beb-b386-01c64d1b2faa",
+            "id": "14",
+            "name": "InstaMag · MusicBook",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "http://sg.api.fotoable.com/home/album/?key=8939c2360001027899dcef0609116410&id=12041057"
+         } ],
+         "date_added": "13240862279970562",
+         "date_last_used": "0",
+         "date_modified": "13088957874536906",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

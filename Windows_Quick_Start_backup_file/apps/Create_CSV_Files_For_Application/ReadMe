@@ -1,0 +1,72 @@
+                        What does this code Do
+
+Overview:
+The CSV backup file (installed_apps.csv) contains a structured list of installed applications on a Windows system. This approach provides an organized view of applications, making it easy to review, compare, and reinstall missing software.
+
+Key Features of csv file 
+1. Best for listing installed applications (including versions from registry).
+2. Does not include browser data or .exe file paths.
+
+Use the CSV if:
+1. You only need an application list with versions.
+2.  You prefer a simple CSV format over JSON.
+
+
+CSV Output Structure
+The file consists of the following columns:
+    Column_Name	    Description
+    Name	        The application name
+    Version	        The installed version (if available)
+    Source	        The installation type (Traditional, Microsoft Store, or File System)
+Example of installed_apps.csv
+    Name,Version,Source
+    Google Chrome,123.0.0.1,Traditional
+    Spotify,N/A,Microsoft Store
+    Notepad++ Portable,N/A,File System
+
+
+CSV Fields Explanation
+    Field	    Description
+    Name	    The exact name of the installed application
+    Version	    The installed version (if detected from registry or PowerShell)
+    Source	    Where the application is installed from:
+                    - Traditional → Installed via .exe or .msi (Windows Registry)
+                    - Microsoft Store → Installed via Microsoft Store (PowerShell)
+                    - File System → Detected in C:\Program Files or D:\PortableApps\
+
+
+What the CSV Backup Contains
+    1. Installed Applications (Traditional .exe, Microsoft Store, and File System apps)
+    2. Application versions (if detected from the Windows Registry or PowerShell)
+    3.  Simple structure that can be viewed in Excel, Notepad++, or Power BI
+    4. Easy to compare with another backup (e.g., using Notepad++ Compare Plugin)
+
+What the CSV Backup Does NOT Contain
+    1. .exe Installer Paths – No .exe file paths for easy reinstallation.
+    2. Portable App Executables – Detects them but doesn’t store .exe files.
+    3. Browser Bookmarks – No Chrome, Edge, or Firefox bookmark backups.
+    4.  System Preferences – Does not save Wi-Fi settings, registry configurations, or running services.
+    5.  Software Licenses – No Windows, Microsoft Office, or Adobe license keys.
+    6. Cloud Sync Settings – No OneDrive, Google Drive, or Dropbox configuration backup.
+
+How to Use This CSV File
+   1. Viewing Installed Applications
+        Open installed_apps.csv in Excel or Notepad++ to check all installed software.
+   2. Comparing with a New System
+        Export installed_apps.csv from an old laptop and compare it with the same file from a new laptop to find missing applications.
+   3. Automating App Reinstallation
+        This will automatically run the re_install_apps.py file 
+        1. what does re_install_apps.py do:
+            1.Reads installed_apps.csv to get the list of installed applications.
+            2. Asks the user for permission to proceed with installation.
+            3. If the user agrees, it:
+                Creates install_apps.ps1 (PowerShell script)
+                Runs the PowerShell script automatically
+                Reinstalls Microsoft Store apps
+                Notifies about manual installation for traditional Win32 apps
+            4. Logs the installation status of sucess/failure.
+
+Advantages of the CSV Backup
+    1. Lightweight & Readable – Simple tabular format for quick viewing.
+    2. Easily Shareable – Can be emailed or transferred between devices.
+    3. Great for Manual Reinstallation – Users can reference it to manually reinstall apps.

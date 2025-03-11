@@ -1,0 +1,19 @@
+1. All the windows information will be in registry then if we can just download that registry and create a qr code will it not be sufficient?
+    No, Register contains only the metadata of the laptop but not the actual Database
+
+2. how to go to register :
+    1. start+r 
+    2. path : Computer\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
+    reference picture :C:\Users\SRAVYA\OneDrive\Desktop\Windows Quick Start\Pictures\register_reference.JPG
+
+3. Export Installed Applications Data
+    To export installed programs, run the following command in Command Prompt (Admin mode):
+        cmd
+        reg export "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall" installed_apps.reg /y
+    This will create a installed_apps.reg file that stores all installed applications.
+
+    Export System Settings
+        To export all user settings, use:
+            cmd
+            reg export "HKEY_CURRENT_USER\Software\Microsoft" user_settings.reg /y
+    This will create user_settings.reg, containing personal Windows settings.

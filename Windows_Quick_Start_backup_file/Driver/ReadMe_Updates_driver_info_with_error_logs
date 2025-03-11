@@ -1,0 +1,92 @@
+# 📁 All Drives File Collector
+
+This script scans all available drives on your Windows system and collects metadata for every accessible file. It also logs any files or folders that could not be accessed due to permission or system errors.
+
+---
+
+## 🛠 Script Name
+`Updated_driver_info_with_error_logs.py`
+
+---
+
+## 🎯 Purpose
+
+The script is designed to:
+- Detect all available drives (C:\, D:\, etc.)
+- Recursively scan for user-accessible files
+- Collect file metadata:
+  - ✅ File path
+  - ✅ File size (in bytes)
+  - ✅ Last modified timestamp
+- Save the collected data into a `.csv` file
+- Log any inaccessible files into a `.log` file for review
+
+---
+
+## 📁 Output Files
+
+| **File Name**             | **Format** | **Description**                                       |
+|---------------------------|------------|-------------------------------------------------------|
+| `collected_all_drives.csv` | CSV        | List of all successfully accessed files and metadata |
+| `scan_errors.log`         | Text Log   | List of files/folders that could not be processed    |
+
+---
+
+## 📦 Included vs. Excluded Data
+
+| ✅ Included                                    | ❌ Not Included                        |
+|-----------------------------------------------|----------------------------------------|
+| File paths from all available drives          | File contents                          |
+| File size in bytes                            | File/folder permissions or ownership   |
+| Last modified timestamp                       | Nested folder structure                |
+| Error logging for skipped files               | Binary data or encrypted file metadata |
+
+---
+
+## 🔐 Excluded System Directories
+
+These directories are skipped by default to prevent access errors:
+- `C:\Windows`
+- `C:\Program Files`
+- `C:\Program Files (x86)`
+- `C:\$Recycle.Bin`
+- `C:\System Volume Information`
+
+---
+
+## ⚠️ Error Handling
+
+If a file cannot be accessed due to:
+- **Permission denied**
+- **Path not found**
+- **Locked by system**
+
+...it is skipped and logged into `scan_errors.log` with the error message.
+
+Example log entry:
+C:\Users\SRAVYA\AppData\Local\Temp\example.tmp - [WinError 5] Access is denied
+
+---
+
+## ✅ Use Cases
+
+- Auditing user files before migration or backup
+- Validating which files are accessible under current user permissions
+- Troubleshooting skipped files during full-system backup
+- Combining with app and driver backup for a complete validation set
+
+---
+
+## 📝 Notes
+
+- You can run the script with a normal user account
+- To access more restricted folders, run the script as **Administrator**
+- The script gracefully skips inaccessible files and logs them — no crash!
+
+---
+
+## 🔄 Recommended Enhancement (Optional)
+
+For better traceability, you can modify the script to:
+- Add **timestamps** to each error log entry
+- Append to the log file instead of overwriting it every time

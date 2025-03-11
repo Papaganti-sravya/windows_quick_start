@@ -1,0 +1,117 @@
+                            Categories of application stored in windows
+                            
+Applications on Windows can be installed and stored in multiple ways, depending on their type. Understanding these methods is crucial for backup, migration, and reinstallation.
+
+                    1. Traditional Installed Applications (Registry-Based)
+Examples of Installed Apps
+    1 Microsoft Office
+    2 Google Chrome
+    3 Adobe Photoshop
+Where Are They Stored?
+    Program Files:
+        C:\Program Files\ (for 64-bit apps)
+        C:\Program Files (x86)\ (for 32-bit apps)
+    Registry Paths:
+        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+        HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
+How to Detect Them?
+    Using Powershell
+        Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*
+  
+
+
+                    2.Microsoft Store Applications (UWP / Appx Packages)
+Examples of Microsoft Store Apps
+    1. Netflix
+    2. Spotify (Store version)
+    3. Windows Mail
+Where Are They Stored?
+    C:\Program Files\WindowsApps\
+    C:\Users\YourUser\AppData\Local\Packages\
+How to Detect them
+    Using powershell 
+        Get-AppxPackage | Select Name, PackageFullName
+
+
+
+                    3 Portable Applications (Standalone EXE)
+Examples of Portable Apps
+    1. VLC Media Player (Portable version)
+    2. Notepad++ (Standalone EXE)
+    3. Rufus
+Where Are They Stored?
+    These apps don’t require installation and can be stored anywhere:
+        C:\Users\YourUser\Downloads\
+        D:\PortableApps\
+        External USB drives
+How to detect them 
+    Through python code : Scanning directories for .exefile 
+    python code:
+        import os
+
+        search_path = "D:\\PortableApps"  # Change to scan another directory
+            for root, _, files in os.walk(search_path):
+                for file in files:
+                    if file.endswith(".exe"):
+                    print(os.path.join(root, file))
+
+
+                   4. Script-Based Installations (EXE, BAT, MSI, CMD)
+Examples of Script-Based Apps
+    1.Python Installer (python-3.x.exe)
+    2.Java Installer (jdk-17.msi)
+Where Are They Stored?
+    C:\Users\YourUser\Downloads\
+    C:\Temp\
+    C:\Windows\System32\
+How to detect them:
+    Through python code : Searching for .exe or .msi installers
+    import os
+    download_path = "C:\\Users\\YourUser\\Downloads"
+    for file in os.listdir(download_path):
+        if file.endswith((".exe", ".msi", ".bat", ".cmd")):
+            print(file)
+
+                5. Web-Based Applications (Progressive Web Apps - PWAs)
+Examples of PWAs
+    1.Google Docs
+    2.Microsoft Outlook Web
+Where Are They Stored?
+    C:\Users\YourUser\AppData\Local\Microsoft\Edge\User Data\Default\Service Worker\
+    C:\Users\YourUser\AppData\Local\Google\Chrome\User Data\Default\Web Applications\
+How to detect them:
+    Through python code: Check installed Chrome/Edge PWAs:
+    import os
+    pwa_path = "C:\\Users\\YourUser\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web Applications"
+    if os.path.exists(pwa_path):
+        print("PWA Installed:", os.listdir(pwa_path))
+
+
+                6.Virtualized & Cloud-Based Applications
+Examples of Cloud-Based Apps
+    1. Microsoft 365 Cloud Apps
+    2. Citrix Workspace
+    3. VMware Horizon
+Where Are They Stored?
+    Virtualized applications don’t install locally but may cache data in:
+        C:\Users\YourUser\AppData\Local\
+        C:\Users\YourUser\AppData\Roaming\
+How to Detect them
+    Through python code : Check for cache folders
+    import os
+    cache_path = "C:\\Users\\YourUser\\AppData\\Local"
+    cloud_apps = [f for f in os.listdir(cache_path) if "Microsoft" in f or "Citrix" in f]
+    print("Cloud Apps Found:", cloud_apps)
+
+                            Why Does This Matter
+Understanding how applications are stored helps us: 
+    Collect & back up applications correctly
+    Reinstall them properly on a new system
+    Create an automated recovery process
+
+
+
+
+    
+
+

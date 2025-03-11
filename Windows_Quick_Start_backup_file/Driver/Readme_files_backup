@@ -1,0 +1,120 @@
+# 📦 D: Drive File Backup Script (with Metadata + ZIP)
+
+This script scans the `D:` drive of your Windows system, copies **actual files** (not just metadata), saves their metadata in a CSV file, logs any access errors, and compresses everything into a final `.zip` archive for backup or migration.
+
+---
+
+## 🛠 Script Name
+`Collect_actual_files.py`
+
+---
+
+## 🎯 Purpose
+
+This script is designed to:
+- Scan only the `D:` drive (excluding system-level folders)
+- ✅ Copy each accessible file to a backup folder (`files_backup_d`)
+- ✅ Record file metadata:
+  - Relative path
+  - File size (in bytes)
+  - Last modified timestamp
+- ❌ Log inaccessible files or permission errors to a log file
+- ✅ Create a compressed ZIP archive containing:
+  - Copied files
+  - Metadata CSV
+  - Error log (if any)
+
+---
+
+## 📁 Output Files
+
+| **File Name**           | **Description**                                       |
+|--------------------------|-------------------------------------------------------|
+| `files_backup_d/`        | Folder with all copied files from the `D:` drive     |
+| `file_metadata_d.csv`    | Metadata for every successfully copied file          |
+| `scan_errors_d.log`      | List of files/folders that couldn’t be accessed      |
+| `d_drive_backup.zip`     | Final archive containing all of the above            |
+
+---
+
+## 📦 Included vs. Excluded
+
+| ✅ Included                            | ❌ Excluded                                 |
+|---------------------------------------|---------------------------------------------|
+| All user-accessible files from D:\    | System folders (e.g., `$Recycle.Bin`)       |
+| File path, size, last modified date   | NTFS permissions / file ownership           |
+| Folder structure inside `files_backup_d` | Contents of skipped/inaccessible files  |
+| Actual file copies                    | Files blocked by admin/system/locks         |
+
+---
+
+## 🔐 Excluded System Directories
+
+To avoid permission issues and unnecessary system files, the following are skipped automatically:
+- `D:\$Recycle.Bin`
+- `D:\System Volume Information`
+
+You can adjust this in the `excluded_dirs` list in the script if needed.
+
+---
+
+## ⚠️ Error Handling
+
+Any file that cannot be copied due to:
+- Access denied
+- File not found
+- Being locked by another process
+
+...will be:
+- Skipped
+- Logged into `scan_errors_d.log`
+
+### 🔍 Example log entry:
+D:\Projects\Secret\File.txt - [WinError 5] Access is denied
+
+
+---
+
+## 📌 No `scan_errors_d.log`? What It Means
+
+If the script completes **without creating** the `scan_errors_d.log` file, it means:
+- ✅ All files the script attempted to copy were processed successfully
+- ❌ It does not mean literally every file was copied — system-protected folders are still skipped
+- ✅ No unhandled errors occurred
+
+> You can assume the backup is clean and complete **within the allowed user-accessible scope**.
+
+---
+
+## 📝 File Metadata Example
+
+Example contents of `file_metadata_d.csv`:
+
+| Relative Path                     | Size (Bytes) | Last Modified         |
+|----------------------------------|--------------|------------------------|
+| MyFiles/resume.pdf               | 123456       | 2025-02-15 11:20:00    |
+| Photos/family/photo1.jpg         | 456789       | 2024-11-21 08:15:32    |
+
+---
+
+## 🧠 Debug Support
+
+The script includes **print-based debugging**, such as:
+- Drive detection
+- Skipped folders
+- Each file copied or skipped
+- Progress while zipping
+
+---
+
+## 💡 Use Cases
+
+- Partial backup for low-usage drives (like `D:`)
+- Easy restoration on a new Windows laptop
+- File-level archive validation
+- Combined backup with application and driver recovery
+
+---
+
+> ⚠️ **Tip:** Run the script as Administrator for better access. Skipped files are often in system or locked folders.
+

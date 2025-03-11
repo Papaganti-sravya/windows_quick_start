@@ -1,0 +1,194 @@
+{
+   "checksum": "d914f3626458a5007286568aa562a411",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13166181729890699",
+            "date_last_used": "0",
+            "guid": "d9f16899-058b-4cb2-bf9e-2a0d88cd5366",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13177245103441541"
+            },
+            "name": "Udacity",
+            "type": "url",
+            "url": "https://classroom.udacity.com/nanodegrees/nd001-intr2/parts/6d9560d0-8027-4cd9-aa05-6484d8ee7ccb"
+         }, {
+            "date_added": "13175518444510379",
+            "date_last_used": "0",
+            "guid": "6f5fb71e-c60b-403f-8dbe-44faf905bc45",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13195808804828444"
+            },
+            "name": "Blog",
+            "type": "url",
+            "url": "https://www.blogger.com/blogger.g?rinli=1&pli=1&blogID=7592648978360915769#allposts"
+         }, {
+            "date_added": "13227990369007204",
+            "date_last_used": "0",
+            "guid": "1111f948-5514-4a8a-bb95-fdd880369f1d",
+            "id": "10",
+            "name": "React js",
+            "type": "url",
+            "url": "https://snack.expo.io/"
+         }, {
+            "date_added": "13241377458500890",
+            "date_last_used": "13384906451996867",
+            "guid": "19824d39-3dd4-4a21-9112-ebff18e5a8a9",
+            "id": "18",
+            "name": "NAU login ",
+            "type": "url",
+            "url": "https://cas.nau.edu/cas/login?service=https%3A%2F%2Fwww.peoplesoft.nau.edu%2Fpsp%2Fps92pr_1%2FEMPLOYEE%2FSA%2Fc%2FSA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL"
+         }, {
+            "date_added": "13242231098991135",
+            "date_last_used": "0",
+            "guid": "1b107cc0-adc0-4ab6-9099-95e481c16385",
+            "id": "22",
+            "name": "BB Leariing",
+            "type": "url",
+            "url": "https://bblearn.nau.edu/"
+         }, {
+            "date_added": "13246717114744288",
+            "date_last_used": "0",
+            "guid": "abaf25f8-4a25-4d27-ac71-66c715ec9935",
+            "id": "37",
+            "name": "grasshopper ",
+            "type": "url",
+            "url": "https://ghcindia.anitab.org/ghci-20-student-scholarships/"
+         }, {
+            "date_added": "13273783793765705",
+            "date_last_used": "0",
+            "guid": "eed86f06-4240-4d08-93c1-3c49f9bec504",
+            "id": "52",
+            "name": "Data Science ",
+            "type": "url",
+            "url": "https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/learn/lecture/10762768#overview"
+         }, {
+            "date_added": "13273883536840793",
+            "date_last_used": "13324693784401194",
+            "guid": "4da96b1d-f12a-4690-8aa4-f886594dff64",
+            "id": "54",
+            "name": "Resume Database",
+            "type": "url",
+            "url": "https://www.hireitpeople.com/resume-database"
+         }, {
+            "date_added": "13276814269984546",
+            "date_last_used": "0",
+            "guid": "89aa6cd5-01f5-430f-8eaa-396518bd9314",
+            "id": "58",
+            "name": "Google Tech Dev Guide",
+            "type": "url",
+            "url": "https://techdevguide.withgoogle.com/"
+         }, {
+            "date_added": "13276814812128141",
+            "date_last_used": "0",
+            "guid": "be0b9e79-de8a-42cc-8944-d5c6aa247e18",
+            "id": "59",
+            "name": "Google Careers",
+            "type": "url",
+            "url": "https://careers.google.com/students/"
+         }, {
+            "date_added": "13277265725889973",
+            "date_last_used": "0",
+            "guid": "5ed8eab6-b292-4d3b-a36a-563b81039f09",
+            "id": "61",
+            "name": "Map reduce",
+            "type": "url",
+            "url": "https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/"
+         }, {
+            "date_added": "13278155079993827",
+            "date_last_used": "0",
+            "guid": "d736f69c-9822-4a74-92fd-f7ae301c56d2",
+            "id": "63",
+            "name": "amazon oa",
+            "type": "url",
+            "url": "https://www.educative.io/blog/crack-amazon-coding-interview-questions"
+         }, {
+            "date_added": "13282860596772015",
+            "date_last_used": "0",
+            "guid": "81d4d929-69fb-42c4-aac4-c847d9888164",
+            "id": "65",
+            "name": "IBM",
+            "type": "url",
+            "url": "https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5016&jobid=454112&codes=EmployeeReferral#Applications"
+         }, {
+            "date_added": "13285375897411912",
+            "date_last_used": "0",
+            "guid": "01a54fdf-25b2-46b3-9dac-60223861651c",
+            "id": "67",
+            "name": "OLTP OLAP:",
+            "type": "url",
+            "url": "https://www.stitchdata.com/resources/oltp-vs-olap/"
+         }, {
+            "date_added": "13285889362510853",
+            "date_last_used": "0",
+            "guid": "c1050120-45c2-4d1d-b2e8-4b4a0459208b",
+            "id": "69",
+            "name": "HDFS interview questions ",
+            "type": "url",
+            "url": "https://www.edureka.co/blog/interview-questions/top-hadoop-interview-questions#hdfs"
+         }, {
+            "date_added": "13286349164784215",
+            "date_last_used": "0",
+            "guid": "6ba985f9-8b78-4cb3-a48a-a108039646f6",
+            "id": "71",
+            "name": "Data loading ",
+            "type": "url",
+            "url": "https://blogs.oracle.com/datawarehousing/post/data-loading-into-hdfs-part1#:~:text=Generally%20speaking%2C%20there%20are%20two,over%20some%20shared%20directory%2C%20sqoop."
+         }, {
+            "date_added": "13288398820358423",
+            "date_last_used": "0",
+            "guid": "8bbb3df2-b81c-49bb-a41b-eb525d0a84c8",
+            "id": "73",
+            "name": "Amazon",
+            "type": "url",
+            "url": "https://www.certmetrics.com/amazon/default.aspx"
+         }, {
+            "date_added": "13292369963011568",
+            "date_last_used": "0",
+            "guid": "5eb74fd7-94ce-41b5-92fd-a2c2c17e8247",
+            "id": "75",
+            "name": "AWS jobs",
+            "type": "url",
+            "url": "https://www.amazon.jobs/en/jobs/1917408/software-development-engineer-aws"
+         } ],
+         "date_added": "13239476876735791",
+         "date_last_used": "0",
+         "date_modified": "13292369963011568",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13239476876735800",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13088957874536906",
+            "date_last_used": "0",
+            "guid": "5f26dd73-aeea-4412-9625-c19023d42d40",
+            "id": "5",
+            "name": "InstaMag · MusicBook",
+            "type": "url",
+            "url": "http://sg.api.fotoable.com/home/album/?key=8939c2360001027899dcef0609116410&id=12041057"
+         } ],
+         "date_added": "13239476876735807",
+         "date_last_used": "0",
+         "date_modified": "13088957874536906",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
